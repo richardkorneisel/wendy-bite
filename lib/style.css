@@ -1,0 +1,31 @@
+body {
+    background-color: #3c3c3c;
+    color: #ffffff;
+    border-width: 5px;
+        border-style: solid;
+        border-color: #6c6c6c;
+		padding: 0;
+		margin: 0;
+}
+a {
+    color: #4fc790;
+}
+.active {
+    color: #ffffff;
+    text-decoration: none;
+}
+h1 {
+    font-style: italic;
+}
+header {
+    text-align: center;
+}
+.container {
+    margin: 0 auto; 
+    box-sizing: border-box;
+    padding: 0.5in; 
+    width: 8.5in;
+    height: 11in;
+    background-color: #3c3c3c;
+    box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);
+}
