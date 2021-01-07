@@ -1,3 +1,14 @@
+aside {grid-area: image;}
+main {grid-area: main;}
+
+.container .body {
+    display:grid;
+    grid-template-areas:
+    "main image"
+    "main image" ;
+    grid-template-columns: auto;
+}
+
 body {
     background-color: #3c3c3c;
     color: #ffffff;
